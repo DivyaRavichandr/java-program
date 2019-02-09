@@ -13,8 +13,8 @@ total=total+num*num*num;
 num=num/10;
 }
 if(num==total)
-System.out.print("yes ");
+System.out.print("the armstrong number",num);
 else
-System.out.print("no");
+System.out.print("no armstrong number");
 }
 }
