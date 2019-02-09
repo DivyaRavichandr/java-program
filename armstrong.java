@@ -1,4 +1,4 @@
-import java.util.Scanner{
+import java.util.Scanner;
 class armstrong{
 public static void main(String args[]){
 Scanner scan=new Scanner(System.in);
@@ -15,4 +15,4 @@ else
 System.out.print("no");
 }
 }
-}
+
