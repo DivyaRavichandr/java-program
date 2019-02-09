@@ -5,10 +5,9 @@ System.out.print("enter the interval a and b");
 Scanner scan=new Scanner(System.in);
 int a=scan.nextInt();
 int b=scan.nextInt();
-Scanner scan=new Scanner(System.in);
 int num=scan.nextInt();
-int num, a,b,total=0;
-while(a<num>b){
+int total=0;
+while(a<=num && num>=b){
 num=num%10;
 total=total+num*num*num;
 num=num/10;
