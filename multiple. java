@@ -1,7 +1,8 @@
 import java.util.Scanner;
 class multiple{
 public static void main(String[] args){
-	int N, tot;
+	int N=5;
+	int tot;
 	Scanner scan=new Scanner(System.in);
 	N=scan.nextInt();
 	for(int i=1;i<=N;i++){
