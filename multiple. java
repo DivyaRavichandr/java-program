@@ -1,12 +1,13 @@
 import java.util.Scanner;
 class multiple{
 public static void main(String[] args){
-int i=1;
-int tot=0;
-Scanner scan=new Scanner(System.in);
-int N=scan.nextInt();
-for(i=1;i<=N;i++)
-tot=i*N;
-System.out.print(tot);
+	int N, tot;
+	Scanner scan=new Scanner(System.in);
+	N=scan.nextInt();
+	for(int i=1;i<=N;i++){
+		tot=N*i;
+		System.out.print(" "+tot);
+	}
+	
 }
 }
